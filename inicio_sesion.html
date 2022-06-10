@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <title>Iniciar Sesion</title>
+  <style>
+    body{
+      background: rgb(134, 128, 128);
+    }
+    .bg{
+      background-image: url(img/fondo.png);
+      background-position: center center;
+    }
+    .br{
+      background: #fff;
+    }
+  </style>
+</head>
+<body >
+  <div class="container w-70 mt-3 rounded my-3">
+    <div class="row">
+      <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+      </div>
+      <div class="col br p-5 rounded-end">
+        <div class="text-center mt-3">
+          <img src="img/usuario.svg" alt="" style="width: 80px; height: 80px;">
+        </div>
+        <!--Inicio de sesion-->
+          <h5 class="fw-bold text-center py-5 ">Inicio de Sesion</h5>
+          <form action="inicio_sesion.php" method="post">
+              <div class="mb-4">
+                <label for="usuario" class="form-label">Usuario</label> 
+                <input type="text" name="usuario" class="form-control" placeholder="">
+              </div>
+              <div class="mb-4"> 
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" name="pass" class="form-control" placeholder="">
+              </div> 
+              <div class="mb-4 form-check">
+                <input type="checkbox" name="connected" class="form-check-input ">
+                <label for="connected" class="form-check-label">Mantenerme conectado</label>
+              </div>
+              <div class="d-grid" style="width: auto;">
+                <button class="btn btn-outline-danger">Iniciar Sesion</button>
+              </div>
+              <div class="my-3">
+                <span>¿No tienes cuenta? <a href="crear_sesion.php" class="outline">Registrarse</a></span> <br>
+                <span>¿Olvidaste tu contraseña?</span>
+              </div>      
+          </form> 
+          <!--Incio de sesion con redes sociales -->
+          <div class="container w-100 my-5">
+            <div class="row text-center">
+              <div class="col-12">Iniciar sesion con  </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button class="btn btn-outline-primary w-100 my-1 ">
+                  <div class="row aling-items-center">
+                    <div class="col-2 d-none d-md-inline-block">
+                      <img src="img/fb.png" width="32" alt="">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">Facebook</div>
+                  </div>
+                </button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-dark w-100 my-1">
+                  <div class="row aling-items-center">
+                    <div class="col-2 d-none d-md-inline-block">
+                      <img src="img/gg.png" width="32" alt="">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">Google</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+      </div> 
+  </div>
+</div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
