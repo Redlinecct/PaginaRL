@@ -6,7 +6,8 @@ body{
     font-family: sans-serif;
 }
 .nv{
-    background: rgb(238, 235, 235);
+    background: rgb(0, 0, 0);
+    border-bottom: 5px solid red;
 }
 .imagen{
     padding: 20px 20px;
