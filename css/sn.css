@@ -5,7 +5,9 @@
 body{
     font-family: sans-serif;
 }
-
+.container{
+    color: bisque;
+}
 .imagen{
     padding: 20px 20px;
 }
@@ -17,7 +19,6 @@ body{
 .lit{
     display: inline;
     float: right;
-
 }
 .lit a{
     text-decoration: none;
@@ -28,3 +29,4 @@ body{
 .nosotros{
     background-color: blue;
 }
+
