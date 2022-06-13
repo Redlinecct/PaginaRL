@@ -1,32 +1,119 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
-.container{
-    color: bisque;
+.nv {
+  background-color: #f8f9fa;
+  position: sticky;
+  top: -10px;
+  border-bottom: 2px solid #000000;
 }
-.imagen{
-    padding: 20px 20px;
+.imagen {
+  padding: 20px 20px;
 }
-.lista{
-    list-style: none;
-    float: right;
-    padding: 40px 20px;
+.lista {
+  list-style: none;
+  float: right;
+  padding-top: 25px;
+  padding-right: 10px;
 }
-.lit{
-    display: inline;
-    float: right;
+.lit {
+  display: inline;
+  float: right;
 }
-.lit a{
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    
+.lit a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
 }
-.nosotros{
-    background-color: blue;
+.contenedor {
+  overflow: auto;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.carta-1 {
+  background: #e7e7e7;
+}
+.titulos {
+  text-align: center;
+}
+.textos {
+  float: left;
+  width: 48%;
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+.imagenes {
+  float: right;
+  width: 52%;
+  padding-left: 30px;
+}
+.imagenes img {
+  width: 100%;
+}
+.carta-2 {
+  background: #ffffff;
+}
+.titulos2 {
+  text-align: center;
+}
+.textos2 {
+  float: right;
+  padding-top: 200px;
+  padding-left: 20px;
+  width: 50%;
+  text-align: left;
+}
+.imagenes2 {
+  float: left;
+  width: 50%;
+}
+.imagenes2 img {
+  width: 100%;
+}
+.titulos3 {
+    text-align: center;
+}
+.textos3 {
+    float: left;
+    padding-top: 200px;
+    padding-left: 20px;
+    width: 48%;
+    text-align: left;
+}
+.cartas-1{
+    border: 2px solid rgb(192, 192, 192);
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    transform-style:preserve-3d ;
+    transition: .5s ease;
+}
+.cartas-1:hover{
+  transform: rotateY(180deg);
+}
+.adelante, .texto{
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
+.texto{
+  transform: rotateY(180deg);
+}
+.contenedores{
+    padding-left: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.adelante{
+  height:100%;
+}
+.card-1{
+  background-image: url(C:\xampp\htdocs\PaginaRL\img\logoo.png);
+}
