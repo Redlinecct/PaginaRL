@@ -5,10 +5,7 @@
 body{
     font-family: sans-serif;
 }
-.nv{
-    background: rgb(126, 84, 84);
-    border-bottom: 5px solid red;
-}
+
 .imagen{
     padding: 20px 20px;
 }
@@ -27,4 +24,7 @@ body{
     color: black;
     font-size: large;
     
+}
+.nosotros{
+    background-color: blue;
 }
