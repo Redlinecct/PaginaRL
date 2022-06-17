@@ -39,16 +39,17 @@ body {
 .titulos {
   text-align: center;
 }
+
 .textos {
   float: left;
-  width: 48%;
-  padding-top: 30px;
-  padding-left: 20px;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 30px;
   text-align: left;
 }
 .imagenes {
   float: right;
-  width: 52%;
+  width: 50%;
   padding-left: 30px;
 }
 .imagenes img {
@@ -64,12 +65,13 @@ body {
   float: right;
   padding-top: 200px;
   padding-left: 20px;
-  width: 50%;
+  padding-right: 20px;
+  width: 45%;
   text-align: left;
 }
 .imagenes2 {
   float: left;
-  width: 50%;
+  width: 52.4%;
 }
 .imagenes2 img {
   width: 100%;
@@ -79,22 +81,31 @@ body {
 }
 .textos3 {
     float: left;
-    padding-top: 200px;
-    padding-left: 20px;
-    width: 48%;
+    padding-top: 190px;
+    padding-left: 30px;
+    width: 45%;
     text-align: left;
 }
 .cartas-1{
     border: 2px solid rgb(192, 192, 192);
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 400px;
+    margin-left: 90px;
+    margin-bottom: 10px;
     float: left;
-    margin-left: 20px;
-    position: relative;
     transform-style:preserve-3d ;
-    transition: .5s ease;
+    transition-duration: .3s ease;
+    background-image: url('../img/pq6.jpg');
+    text-align: center;
+    background-size: cover;
+    color: #e7e7e7;
 }
 .cartas-1:hover{
+  transform: rotateY(180deg);
+  background: #e7e7e7;
+  color: #000000;
+}
+.cartas-1:hover .tituloss{
   transform: rotateY(180deg);
 }
 .adelante, .texto{
@@ -102,18 +113,36 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .texto{
   transform: rotateY(180deg);
+  height: 90%;
 }
 .contenedores{
     padding-left: 20px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 .adelante{
   height:100%;
+  text-align: center;
 }
-.card-1{
-  background-image: url(C:\xampp\htdocs\PaginaRL\img\logoo.png);
+
+.cartas-2{
+  border: 2px solid rgb(192, 192, 192);
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  transform-style:preserve-3d ;
+  transition-duration: .3s ease;
+
+  text-align: center;
+  background-size: cover;
+}
+.cartas-2:hover{
+transform: rotateY(180deg);
+background: #e7e7e7;
+}
+.cartas-2:hover .tituloss{
+transform: rotateY(180deg);
+background: #e7e7e7;
 }

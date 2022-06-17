@@ -12,7 +12,7 @@
         $pass = $row['password'];
     }
     if ($corr == $correo && $password == $pass) {
-        echo "<script>  alert ('Bienvenido'); window.location='Inicio.php' </script>";
+        echo "<script>  alert ('Bienvenido'); window.location='Index.php' </script>";
     }else{
         echo "<script>";
         echo "alert ('Datos incorrectos')";
