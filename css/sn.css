@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.nv {
+  background-color: #f8f9fa;
+  position: sticky;
+  top: -10px;
+  border-bottom: 2px solid #000000;
+}
+.imagen {
+  padding: 20px 20px;
+}
+.lista {
+  list-style: none;
+  float: right;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+.lit {
+  display: inline;
+  float: right;
+}
+.lit a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+.contenedor {
+  overflow: auto;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.carta-1 {
+  background: #e7e7e7;
+}
+.titulos {
+  text-align: center;
+}
+
+.textos {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 30px;
+  text-align: left;
+}
+.imagenes {
+  float: right;
+  width: 50%;
+  padding-left: 30px;
+}
+.imagenes img {
+  width: 100%;
+}
+.carta-2 {
+  background: #ffffff;
+}
+.titulos2 {
+  text-align: center;
+}
+.textos2 {
+  float: right;
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 45%;
+  text-align: left;
+}
+.imagenes2 {
+  float: left;
+  width: 52.4%;
+}
+.imagenes2 img {
+  width: 100%;
+}
+.titulos3 {
+    text-align: center;
+}
+.textos3 {
+    float: left;
+    padding-top: 190px;
+    padding-left: 30px;
+    width: 45%;
+    text-align: left;
+}
+.cartas-1{
+    border: 2px solid rgb(192, 192, 192);
+    width: 300px;
+    height: 400px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    float: left;
+    transform-style:preserve-3d ;
+    transition-duration: .3s ease;
+    background-image: url('../img/pq6.jpg');
+    text-align: center;
+    background-size: cover;
+    color: #e7e7e7;
+}
+.cartas-1:hover{
+  transform: rotateY(180deg);
+  background: #e7e7e7;
+  color: #000000;
+}
+.cartas-1:hover .tituloss{
+  transform: rotateY(180deg);
+}
+.adelante, .texto{
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.texto{
+  transform: rotateY(180deg);
+  height: 90%;
+}
+.contenedores{
+    padding-left: 20px;
+}
+.adelante{
+  height:100%;
+  text-align: center;
+}
+
+.cartas-2{
+  border: 2px solid rgb(192, 192, 192);
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  transform-style:preserve-3d ;
+  transition-duration: .3s ease;
+
+  text-align: center;
+  background-size: cover;
+}
+.cartas-2:hover{
+transform: rotateY(180deg);
+background: #e7e7e7;
+}
+.cartas-2:hover .tituloss{
+transform: rotateY(180deg);
+background: #e7e7e7;
+}
