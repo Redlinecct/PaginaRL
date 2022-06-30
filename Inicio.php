@@ -65,12 +65,12 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><small>Dvr</small></a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a href="" class="dropdown-item"></a></li>
+                  <li><a href="" class="dropdown-item">sa</a></li>
                 </ul>
               </li>
               <li class="nav-menu-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><small>Controles de acceso</small></a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a href="" class="dropdown-item">rr</a></li>
+                  <li><a href="" class="dropdown-item">dvr</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><small>Reflector</small></a>
