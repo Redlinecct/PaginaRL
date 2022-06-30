@@ -70,7 +70,7 @@
               </li>
               <li class="nav-menu-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><small>Controles de acceso</small></a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a href="" class="dropdown-item">s</a></li>
+                  <li><a href="" class="dropdown-item">rr</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><small>Reflector</small></a>
